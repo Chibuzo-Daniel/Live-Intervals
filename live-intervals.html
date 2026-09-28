@@ -1,0 +1,555 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, viewport-fit=cover"
+    />
+    <title>Live Intervals - Proactive Safety Technology</title>
+    <meta
+      name="description"
+      content="Live Intervals automates location sharing at intervals you control, so trusted contacts always know where you are."
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAV  -->
+    <header class="li-nav li-nav--on-dark" id="liNav">
+      <div class="li-container li-nav__inner li-nav__inner_white">
+        <a href="#liHero" class="li-nav__brand">
+          <img
+            class="li-nav__logo-mark"
+            src="./assets/images/live-interval-logo.jpeg"
+            alt="Live Intervals logo"
+          />
+    
+          Live Intervals
+        </a>
+        <nav aria-label="Primary">
+          <ul class="li-nav__links">
+            <li><a class="li-nav__link" href="#liHero">Home</a></li>
+            <li>
+              <a class="li-nav__link" href="#liHowItWorks">How It Works</a>
+            </li>
+            <li><a class="li-nav__link" href="#liB2b">B2B Solutions</a></li>
+            <li><a class="li-nav__link" href="#liGetStarted">Contact</a></li>
+          </ul>
+        </nav>
+        <a href="#liGetStarted" class="li-nav__cta li-nav__cta--desktop"
+          >Get Started</a
+        >
+        <button
+          class="li-nav__toggle"
+          id="liNavToggle"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="liNavMobilePanel"
+        >
+          <span></span><span></span><span></span>
+        </button>
+      </div>
+      <div class="li-container">
+        <div class="li-nav__mobile-panel" id="liNavMobilePanel">
+          <a class="li-nav__link" href="#liHero">Home</a>
+          <a class="li-nav__link" href="#liHowItWorks">How It Works</a>
+          <a class="li-nav__link" href="#liB2b">B2B Solutions</a>
+          <a class="li-nav__link" href="#liGetStarted">Contact</a>
+          <a class="li-nav__cta" href="#liGetStarted">Get Started</a>
+        </div>
+      </div>
+    </header>
+
+    <!--HERO-->
+    <section class="li-hero" id="liHero">
+      <canvas
+        class="li-hero__canvas"
+        id="liHeroCanvas"
+        aria-hidden="true"
+      ></canvas>
+      <div class="li-container li-hero__inner">
+        <span class="li-hero__eyebrow">Proactive Safety Technology</span>
+        <h1 class="li-hero__title">
+          Safety should never be reactive.<br />You decide how often we check
+          in.
+        </h1>
+        <p class="li-hero__subtitle">
+          Live Intervals automates location sharing at intervals you control. If
+          something goes wrong, your trusted contacts know exactly where to find
+          you even when you are offline.
+        </p>
+        <div class="li-hero__actions">
+          <a href="#liGetStarted" class="li-btn li-btn--solid">
+            <span class="li-icon" aria-hidden="true">📱</span> Download the App
+          </a>
+          <a href="#liB2b" class="li-btn li-btn--outline-dark"
+            >Explore B2B Solutions</a
+          >
+        </div>
+        <div class="li-hero__trust">
+          <span class="li-hero__trust-item"
+            ><span aria-hidden="true">🔒</span> End-to-end encrypted</span
+          >
+          <span class="li-hero__trust-item"
+            ><span aria-hidden="true">📶</span> Works offline</span
+          >
+          <span class="li-hero__trust-item"
+            ><span aria-hidden="true">🔋</span> Battery optimized</span
+          >
+        </div>
+      </div>
+      <div class="li-hero__scroll-cue" aria-hidden="true">↓</div>
+    </section>
+
+    <!--THE PROBLEM-->
+    <section class="li-section li-section--card" id="liProblem">
+      <div class="li-container">
+        <div class="li-section__head li-section__head--center">
+          <div class="li-section__eyebrow">The Reality</div>
+          <h2 class="li-section__title">The Problem with Reactive Safety</h2>
+        </div>
+
+        <div class="li-stats">
+          <div class="li-stat-card">
+            <div class="li-stat-card__number">3,000+</div>
+            <div class="li-stat-card__label">
+              Missing persons cases reported annually in Nigeria
+            </div>
+          </div>
+          <div class="li-stat-card">
+            <div class="li-stat-card__number">78%</div>
+            <div class="li-stat-card__label">
+              Of safety incidents are discovered too late for effective response
+            </div>
+          </div>
+          <div class="li-stat-card">
+            <div class="li-stat-card__number">0</div>
+            <div class="li-stat-card__label">
+              Proactive interval-based safety solutions before Live Intervals
+            </div>
+          </div>
+        </div>
+
+        <div class="li-explain">
+          <div class="li-explain__block li-explain__block--warn">
+            <div
+              class="li-explain__block-icon li-explain__block-icon--warn"
+              aria-hidden="true"
+            >
+              ⏰
+            </div>
+            <h3 class="li-explain__block-title">Reactive Is Too Late</h3>
+            <p class="li-explain__block-text">
+              Every day, thousands of commuters across Nigeria travel with a
+              quiet fear. When something goes wrong; a missed arrival, a sudden
+              stop, an unplanned detour etc. the people who care only find out
+              after it is too late. Traditional emergency systems wait for you
+              to act, when you may not be able to.
+            </p>
+          </div>
+          <div class="li-explain__block li-explain__block--good">
+            <div
+              class="li-explain__block-icon li-explain__block-icon--good"
+              aria-hidden="true"
+            >
+              💚
+            </div>
+            <h3 class="li-explain__block-title">Our Impact</h3>
+            <p class="li-explain__block-text">
+              Through the Live Intervals Foundation, we are committed to
+              community empowerment, saving lives, and creating a safer world.
+              We believe that technology should serve as a shield, not just a
+              tool - protecting the most vulnerable during their daily transit.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--COMMUNITY BANNER-->
+    <section
+      class="li-section li-section--card"
+      id="liBanner"
+      style="padding-top: 0"
+    >
+      <div class="li-container">
+        <div class="li-banner">
+          <img
+            class="li-banner__img"
+            src="https://images.unsplash.com/photo-1509316785289-025f5b846b35?q=80&w=1600&auto=format&fit=crop"
+            alt="Commuters walking along a busy street at sunset"
+          />
+          <div class="li-banner__overlay">
+            <span class="li-banner__caption"
+              >Protecting communities, one journey at a time.</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--HOW IT WORKS-->
+    <section class="li-section li-section--card" id="liHowItWorks">
+      <div class="li-container">
+        <div class="li-section__head li-section__head--center">
+          <div class="li-section__eyebrow">For Individuals</div>
+          <h2 class="li-section__title">How It Works</h2>
+          <p class="li-section__lead">Three simple steps to proactive safety</p>
+        </div>
+
+        <div class="li-steps">
+          <div class="li-step">
+            <div class="li-step__number">01</div>
+            <div class="li-step__icon" aria-hidden="true">⏱️</div>
+            <h3 class="li-step__title">Set Your Interval</h3>
+            <p class="li-step__text">
+              Choose how often Live Intervals checks in on you - every 5, 15, or
+              30 minutes. Longer intervals mean better battery life. Shorter
+              intervals mean faster response. You are in control.
+            </p>
+          </div>
+          <div class="li-step">
+            <div class="li-step__number">02</div>
+            <div class="li-step__icon" aria-hidden="true">📍</div>
+            <h3 class="li-step__title">Automated Check-ins</h3>
+            <p class="li-step__text">
+              Our system runs quietly in the background, verifying your location
+              at each interval. No need to open the app or press a button. It
+              just works, so you can focus on your journey.
+            </p>
+          </div>
+          <div class="li-step">
+            <div class="li-step__number">03</div>
+            <div class="li-step__icon" aria-hidden="true">🛡️</div>
+            <h3 class="li-step__title">Offline Caching &amp; Alerts</h3>
+            <p class="li-step__text">
+              If a check-in is missed or your phone loses network connection,
+              your last known locations are cached locally and sent the moment
+              you are back online. Your trusted contacts get an alert with your
+              location history.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- B2B SOLUTIONS-->
+    <section class="li-section li-section--card" id="liB2b">
+      <div class="li-container">
+        <div class="b2b-title">
+          <div class="li-section__eyebrow">For Businesses</div>
+          <h2 class="li-section__title">How It Works</h2>
+        </div>
+
+        <div class="li-b2b-intro">
+          <div class="li-b2b-intro__media">
+            <img
+              src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=1200&auto=format&fit=crop"
+              alt="Abstract glowing network representing a connected safety platform"
+            />
+            <div class="li-b2b-intro__badge">
+              <span class="li-b2b-intro__badge-icon" aria-hidden="true"
+                >🛡️</span
+              >
+              <span>
+                <span class="li-b2b-intro__badge-title" style="display: block"
+                  >99.9% Uptime</span
+                >
+                <span class="li-b2b-intro__badge-sub">Enterprise SLA</span>
+              </span>
+            </div>
+          </div>
+          <div class="li-b2b-intro__copy">
+            <h2 class="li-b2b-intro__title">
+              Integrate proactive safety into your existing fleet without
+              building it from scratch.
+            </h2>
+            <p class="li-b2b-intro__text">
+              Whether you run a ride-hailing platform, a logistics fleet, or a
+              public transport network, Live Intervals provides the safety
+              backbone your users and drivers deserve. Our developer-ready APIs
+              and real-time webhooks let you add world-class safety features in
+              days, not months.
+            </p>
+            <a href="#liGetStarted" class="li-btn li-btn--solid"
+              >Become a Design Partner →</a
+            >
+          </div>
+        </div>
+
+        <div class="li-features">
+          <div class="li-feature-card">
+            <div class="li-feature-card__icon" aria-hidden="true">
+              &lt;/&gt;
+            </div>
+            <h3 class="li-feature-card__title">Developer API</h3>
+            <p class="li-feature-card__text">
+              Seamless REST API endpoints to start, update, and end trips
+              securely. Full documentation, SDKs, and sandbox environment
+              included.
+            </p>
+          </div>
+          <div class="li-feature-card">
+            <div class="li-feature-card__icon" aria-hidden="true">🔔</div>
+            <h3 class="li-feature-card__title">Emergency Webhooks</h3>
+            <p class="li-feature-card__text">
+              Real-time push alerts sent directly to your security dashboard the
+              second an anomaly or missed interval is detected. Instant
+              awareness, instant action.
+            </p>
+          </div>
+          <div class="li-feature-card">
+            <div class="li-feature-card__icon" aria-hidden="true">🗄️</div>
+            <h3 class="li-feature-card__title">Scalable Architecture</h3>
+            <p class="li-feature-card__text">
+              Built to handle thousands of concurrent trips with 99.9% uptime.
+              Our infrastructure grows with your business - from startup to
+              enterprise.
+            </p>
+          </div>
+        </div>
+
+        <div class="li-trustbar">
+          <div class="li-trustbar__label">
+            Trusted by forward-thinking companies
+          </div>
+          <div class="li-trustbar__logos">
+            <span>Logistics Pro</span>
+            <span>RideSafe NG</span>
+            <span>TransitHub</span>
+            <span>FleetGuard</span>
+            <span>SafeCommute</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY WE EXIST-->
+    <section class="li-section li-section--dark" id="liWhy">
+      <div class="li-container">
+        <div class="li-section__head li-section__head--center">
+          <div class="li-section__eyebrow">Our Why</div>
+          <h2 class="li-section__title">Why We Exist</h2>
+        </div>
+
+        <div class="li-mv-grid">
+          <div class="li-mv-card">
+            <div class="li-mv-card__icon" aria-hidden="true">🎯</div>
+            <h3 class="li-mv-card__title">Our Mission</h3>
+            <p class="li-mv-card__text">
+              To shift personal security from reactive to proactive, providing
+              automated, fail-proof safety tracking that ensures no one goes
+              unfound.
+            </p>
+          </div>
+          <div class="li-mv-card">
+            <div class="li-mv-card__icon" aria-hidden="true">👁️</div>
+            <h3 class="li-mv-card__title">Our Vision</h3>
+            <p class="li-mv-card__text">
+              To become the standard safety infrastructure for commuters and
+              transport networks in Nigeria and beyond, eliminating the fear of
+              the unknown during daily transit.
+            </p>
+          </div>
+        </div>
+
+        <p class="li-quote">
+          "No one should have to choose between living their life and feeling
+          safe."
+        </p>
+      </div>
+    </section>
+
+    <!-- GET STARTED -->
+    <section class="li-section li-section--card" id="liGetStarted">
+      <div class="li-container">
+        <div class="li-getstarted">
+          <div class="li-getstarted__copy">
+            <div class="li-getstarted__eyebrow">Get Started</div>
+            <h2 class="li-getstarted__title">
+              Ready to make safety proactive?
+            </h2>
+            <p class="li-getstarted__text">
+              Join thousands of commuters and leading transport companies who
+              have already switched to Live Intervals.
+            </p>
+            <div class="li-getstarted__actions">
+              <a href="#" class="li-btn li-btn--solid">
+                <span class="li-icon" aria-hidden="true">📱</span> Download the
+                App
+              </a>
+              <a href="#liPartnerForm" class="li-btn li-btn--outline-light"
+                >Become a Design Partner →</a
+              >
+            </div>
+            <div class="li-testimonial">
+              <span class="li-testimonial__avatar" aria-hidden="true">👤</span>
+              <div>
+                <p class="li-testimonial__quote">
+                  "Since integrating Live Intervals, our fleet safety incidents
+                  have dropped by 60%. Our drivers feel safer, and our customers
+                  trust us more."
+                </p>
+                <p class="li-testimonial__author">
+                  -- Operations Director, RideSafe NG
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <form class="li-form" id="liPartnerForm" novalidate>
+            <h3 class="li-form__title">Become a Design Partner</h3>
+            <p class="li-form__sub">
+              Tell us about your company and we will reach out with API access
+              details.
+            </p>
+
+            <div class="li-form__row">
+              <div class="li-form__field">
+                <label class="li-form__label" for="liFullName">Full Name</label>
+                <input
+                  class="li-form__input"
+                  type="text"
+                  id="liFullName"
+                  name="fullName"
+                  placeholder="John Doe"
+                  required
+                />
+              </div>
+              <div class="li-form__field">
+                <label class="li-form__label" for="liCompany">Company</label>
+                <input
+                  class="li-form__input"
+                  type="text"
+                  id="liCompany"
+                  name="company"
+                  placeholder="Your company name"
+                  required
+                />
+              </div>
+            </div>
+
+            <div class="li-form__field">
+              <label class="li-form__label" for="liEmail">Email</label>
+              <input
+                class="li-form__input"
+                type="email"
+                id="liEmail"
+                name="email"
+                placeholder="you@company.com"
+                required
+              />
+            </div>
+
+            <div class="li-form__field">
+              <label class="li-form__label" for="liIndustry">Industry</label>
+              <select
+                class="li-form__select"
+                id="liIndustry"
+                name="industry"
+                required
+              >
+                <option value="" selected disabled class = 'li-form__option'>Select your industry</option>
+                <option value="ride-hailing">Ride-hailing</option>
+                <option value="logistics">Logistics &amp; Delivery</option>
+                <option value="public-transport">Public Transport</option>
+                <option value="fleet-management">Fleet Management</option>
+                <option value="other">Other</option>
+              </select>
+            </div>
+
+            <div class="li-form__field">
+              <label class="li-form__label" for="liMessage"
+                >Message (optional)</label
+              >
+              <textarea
+                class="li-form__textarea"
+                id="liMessage"
+                name="message"
+                maxlength="500"
+                placeholder="Tell us about your use case..."
+              ></textarea>
+            </div>
+            <p class="li-form__hint">
+              <span id="liMessageCount">0</span>/500 characters
+            </p>
+
+            <button type="submit" class="li-form__submit" id="liFormSubmit">
+              Request API Access
+            </button>
+            <p class="li-form__success" id="liFormSuccess" role="status">
+              Thanks - we've received your request and will be in touch shortly.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="li-footer">
+      <div class="li-container">
+        <div class="li-footer__top">
+          <div class="li-footer__brand-col">
+            <a
+              href="#liHero"
+              class="li-nav__brand"
+             
+            >
+            <img src="./assets/images/live-interval-logo.jpeg" alt="Live Intervals logo" class="li-nav__logo-mark">
+               Live Intervals
+            </a>
+            <p class="li-footer__brand-tag">
+              Shifting safety from reactive to proactive.
+            </p>
+            <div class="li-footer__social">
+              <a class="li-footer__social-link" href="" aria-label="LinkedIn"
+                ><img
+                  src="./assets/icons/linkedin-32x32.png"
+                  alt="LinkedIn logo"
+                />
+              </a>
+              <a class="li-footer__social-link" href="#" aria-label="Instagram">
+                <img
+                  src="./assets/icons/instagram-32x32.png"
+                  alt="Instagram logo"
+                />
+              </a>
+              <a class="li-footer__social-link" href="#" aria-label="TikTok">
+                <img src="./assets/icons/tiktok-32x32.png" alt="TikTok logo" />
+              </a>
+            </div>
+          </div>
+          <div class="li-footer__col">
+            <div class="li-footer__col-title">Company</div>
+            <ul class="li-footer__col-list">
+              <li><a href="#">About Us</a></li>
+              <li><a href="#liGetStarted">Contact</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="li-footer__col">
+            <div class="li-footer__col-title">Legal</div>
+            <ul class="li-footer__col-list">
+              <li><a href="#">Privacy Policy</a></li>
+              <li><a href="#">Terms of Service</a></li>
+            </ul>
+          </div>
+          <div class="li-footer__col">
+            <div class="li-footer__col-title">Resources</div>
+            <ul class="li-footer__col-list">
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Support</a></li>
+              <li><a href="#">API Docs</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="li-footer__bottom">
+          <span>2026 Live Intervals. All rights reserved.</span>
+          <span>Built with safety in mind.</span>
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
